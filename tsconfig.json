@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",  // Define o diretório base para as importações
+    "paths": {
+      "@services/*": ["services/*"],  // Alias para a pasta services
+      "@types/*": ["types/*"],  // Alias para a pasta types
+      "@components/*": ["components/*"],  // Alias para a pasta components
+      "@hooks/*": ["hooks/*"]  // Alias para a pasta hooks, se necessário
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
